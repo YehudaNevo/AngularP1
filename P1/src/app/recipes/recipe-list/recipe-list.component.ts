@@ -11,7 +11,7 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[];
 
   constructor(private recipeService: RecipeService) {
-    console.log(this.recipeService.getRecipes());
+    // console.log(this.recipeService.getRecipes());
     this.recipes = this.recipeService.getRecipes();
   }
 
